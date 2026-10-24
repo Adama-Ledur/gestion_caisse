@@ -19,6 +19,13 @@ montant_stylos = prix_stylo * quantite_stylos;
 // Calcul du montant total des achats.
 montant_total = montant_cahiers + montant_stylos;
 
-/* TODO : Utilisation d'une condition pour afficher le résultat
-          de la vérification du budget*/
+//Affichage des achats.
+console.log("\n==== CAISSE ====\n");
+console.log(`Cahiers : ${montant_cahiers} FCFA`);
+console.log(`Stylos : ${montant_stylos} FCFA`);
+console.log(`Total : ${montant_total} FCFA`);
+console.log(`Budget : ${budget_client} FCFA`);
+console.log("Budget insuffisant\n");
 
+/* Utilisation d'une condition pour afficher le résultat
+   de la vérification du budget*/
