@@ -8,8 +8,8 @@ let montant_cahiers;
 let montant_stylos;
 
 // Affectation des quantités de cahiers et de stylos
-quantite_cahiers = 10;
-quantite_stylos = 15;
+quantite_cahiers = 4;
+quantite_stylos = 3;
 
 // Calcul du montant des cahiers et des stylos.
 montant_cahiers = prix_cahier * quantite_cahiers;
