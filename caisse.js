@@ -12,11 +12,12 @@ let numero_affichage;
 quantite_cahiers = 4;
 quantite_stylos = 3;
 
-// TODO : Calcul du montant des cahiers et des stylos.
+// Calcul du montant des cahiers et des stylos.
+montant_cahiers = prix_cahier * quantite_cahiers;
+montant_stylos = prix_stylo * quantite_stylos;
 
-
-// TODO : Calcule du montant total des achats.
-
+// Calcul du montant total des achats.
+montant_total = montant_cahiers + montant_stylos;
 
 /* TODO : Utilisation d'une condition pour afficher le résultat
           de la vérification du budget*/
