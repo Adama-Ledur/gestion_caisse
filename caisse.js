@@ -6,7 +6,6 @@ let quantite_cahiers;
 let quantite_stylos;
 let montant_cahiers;
 let montant_stylos;
-let numero_affichage;
 
 // Affectation des quantités de cahiers et de stylos
 quantite_cahiers = 4;
@@ -19,7 +18,8 @@ montant_stylos = prix_stylo * quantite_stylos;
 // Calcul du montant total des achats.
 montant_total = montant_cahiers + montant_stylos;
 
-//Affichage des achats.
+/*Affichage du montant total et du résultat de la
+  vérification du buget.*/
 console.log("\n==== CAISSE ====\n");
 console.log(`Cahiers : ${montant_cahiers} FCFA`);
 console.log(`Stylos : ${montant_stylos} FCFA`);
@@ -27,5 +27,8 @@ console.log(`Total : ${montant_total} FCFA`);
 console.log(`Budget : ${budget_client} FCFA`);
 console.log("Budget insuffisant\n");
 
-/* Utilisation d'une condition pour afficher le résultat
-   de la vérification du budget*/
+/* Utilisation d'une condition pour afficher les
+   nombre de 1 à 5*/
+for (let i=1; i <= 5; i++){
+    console.log(`Achat numéro : ${i}`)
+}
